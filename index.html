@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="full">
+
+
+
+
+
+   
+
+    <header id="container">
+
+            <nav>
+
+                <div class="name-1">
+                    Get the App
+
+                </div>
+                <div class="name-2">
+                    Inverstors Relations
+                </div>
+                <div class="name-3">
+                    Add restaurant
+                </div>
+                <div class="name-4">
+                    Log in 
+                </div>
+                <div class="name-5">
+
+                    Sign up
+                </div>
+            </nav>
+
+            <div id="head-2">
+
+                <div >
+
+                    <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt=""  class="img-zomatto">
+
+                </div>
+
+                <div id="main-text">
+
+                    Discover the best food & drinks in <span class="span">Kozhikode</span> 
+                    
+                </div>
+
+                <div id="location">
+
+                    <div id="current-location">
+
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNGRjdFOEIiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgaVJEREJrIj48dGl0bGU+bG9jYXRpb24tZmlsbDwvdGl0bGU+PHBhdGggZD0iTTEwLjIgMC40MmMtNC41IDAtOC4yIDMuNy04LjIgOC4zIDAgNi4yIDcuNSAxMS4zIDcuOCAxMS42IDAuMiAwLjEgMC4zIDAuMSAwLjQgMC4xczAuMyAwIDAuNC0wLjFjMC4zLTAuMiA3LjgtNS4zIDcuOC0xMS42IDAuMS00LjYtMy42LTguMy04LjItOC4zek0xMC4yIDExLjQyYy0xLjcgMC0zLTEuMy0zLTNzMS4zLTMgMy0zYzEuNyAwIDMgMS4zIDMgM3MtMS4zIDMtMyAzeiIvPjwvc3ZnPg==" alt="" class="location-logo">
+
+                        <div>
+
+                            <form action="">
+
+                                <input placeholder="kakkancheri,chelambra" class="location-name">
+
+
+
+                            </form>
+
+
+                        </div>
+
+                        <div>
+
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM0RjRGNEYiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgZXpyY3JpIj48dGl0bGU+ZG93bi10cmlhbmdsZTwvdGl0bGU+PHBhdGggZD0iTTIwIDUuNDJsLTEwIDEwLTEwLTEwaDIweiIvPjwvc3ZnPg==" alt="" class="location-logo">
+
+                        </div>
+
+                    
+                    </div>
+
+                    <div>
+
+                        <label for=""> <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM4MjgyODIiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgaXdIYlZRIj48dGl0bGU+U2VhcmNoPC90aXRsZT48cGF0aCBkPSJNMTkuNzggMTkuMTJsLTMuODgtMy45YzEuMjgtMS42IDIuMDgwLTMuNiAyLjA4MC01LjggMC01LTMuOTgtOS04Ljk4LTlzLTkgNC05IDljMCA1IDQgOSA5IDkgMi4yIDAgNC4yLTAuOCA1LjgtMi4xbDMuODggMy45YzAuMSAwLjEgMC4zIDAuMiAwLjUgMC4yczAuNC0wLjEgMC41LTAuMmMwLjQtMC4zIDAuNC0wLjggMC4xLTEuMXpNMS41IDkuNDJjMC00LjEgMy40LTcuNSA3LjUtNy41czcuNDggMy40IDcuNDggNy41LTMuMzggNy41LTcuNDggNy41Yy00LjEgMC03LjUtMy40LTcuNS03LjV6Ii8+PC9zdmc+" alt="" class="search-logo"></label>
+
+
+
+
+
+                    </div>
+
+                    <div class="restaurant-name">
+
+                        
+
+                    <form action="">
+
+                        
+                        <input placeholder="Search for restaurant,cuisine or dish" class="restaurant-namebar">
+                    </form>
+
+                </div>
+
+            </div>
+    </header>
+
+    <div id="main">
+
+
+    
+
+    <div class="main1">
+
+        <div id="order-online">
+
+
+
+            <div class="order-img">
+                
+            
+            </div>
+
+            <div class="text">
+
+                <p class="text-1">Order Online</p>
+                <p class="text-2">Stay Home And Order to Your Doorstep</p>
+
+
+
+
+
+            </div>
+
+
+
+
+        </div >
+
+        
+
+        <div class="locations">
+
+            <p class="place-name">Popular Localties in and around  <span class="span" >Kozhikode</span></p>
+
+            <div class="row-div">
+
+            <div class="loc-1" >
+
+                <p>palayam</p>
+                <div class="space">
+                <p>133 places</p>
+            </div>
+
+
+
+
+            </div>
+
+            <div class="loc-1" >
+
+                <p>Vellayil</p>
+                <div class="space">
+                <p>112 places</p>
+            </div>
+
+
+
+
+            </div>
+
+            <div class="loc-1" >
+
+                <p>Kuttichira</p>
+                <div class="space">
+                <p>84 places</p>
+            </div>
+
+
+
+
+            </div>
+
+
+           
+            
+
+            
+
+            
+
+
+
+
+
+        </div>
+        <div class="row-div">
+
+            <div class="loc-1" >
+
+                <p>Ummalathoor</p>
+                <div class="space">
+                <p>66 places</p>
+            </div>
+
+
+
+
+            </div>
+
+            <div class="loc-1" >
+
+                <p>Malaparamba</p>
+                <div class="space">
+                <p>54 places</p>
+            </div>
+
+
+
+
+            </div>
+
+            <div class="loc-1" >
+
+                <p>Bilathikkulam</p>
+                <div class="space">
+                <p>40 places</p>
+            </div>
+
+
+
+
+            </div>
+
+
+           
+            
+
+            
+
+            
+
+
+
+
+
+        </div>
+
+        <div class="row-div">
+
+            <div class="loc-1" >
+
+                <p>Puthiyangadi</p>
+                <div class="space">
+                <p>11 places</p>
+            </div>
+
+
+
+
+            </div>
+
+            <div class="loc-1" >
+
+                <p>Arrakinar</p>
+                <div class="space">
+                <p>10 places</p>
+            </div>
+
+
+
+
+            </div>
+
+            <div class="loc-1" >
+
+                <p>see more</p>
+                
+
+
+
+
+            </div>
+
+
+           
+            
+
+            
+
+            
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+</div>
+
+<div class="main_2">
+
+    <div id="main_2-sub">
+
+        <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="" id="app-logo">
+    
+
+    <div class="column">
+
+        <p id="line-1">Get the Zomato app</p>
+
+        <p id="line-2">we will send you a link , open it on your phone to download <br> the app</p>
+
+   
+
+    <form action="" class="form">
+
+        <input type="radio" id="email-radio" name="radio" checked>
+        <label for="email-radio" id="email">Email</label>
+        <input type="radio" id="phone-radio" name="radio">
+        <label for="phone-radio" id="phone">Phone</label>
+        <br>
+
+        <input placeholder="Email" class="email-box">
+        <button id="button-edit">Share App Link</button>
+    </form>
+
+    <p class="eeff">Download app from</p>
+
+    <div class="dowmload">
+
+        <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" class="google_play">
+        <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="" class="app_store">
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<div id="main-3">
+
+    <div id="main-3-sub">
+
+        <div>
+
+            <p class="para-3">Explore options near me</p>
+
+            
+        </div>
+
+        <div class="text-main-3">
+
+            <p>Popular cuisine near me</p>
+
+
+
+
+
+
+        </div>
+
+        <div class="text-main-3">
+
+            <p>Popular restaurant types near me </p>
+
+            
+
+
+
+
+        </div>
+        <div class="text-main-3">
+
+            <p> Cites We Deliver to</p>
+
+            
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</div>
+
+<footer>
+
+    <div id="footer-1">
+
+        <div  class="logo"  >
+
+            <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="">
+
+            <div class="country-lang-container">
+
+
+           
+
+            <div class="country">
+
+                <div class="country-container">
+ 
+                    <img src="india-flag-icon.svg" alt="" id="flag-india">
+
+                    <div class="country-text" >
+                        India
+                    </div>
+
+                    <div>
+
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAga01OclBrIj48dGl0bGU+Y2hldnJvbi1kb3duPC90aXRsZT48cGF0aCBkPSJNNC40OCA3LjM4YzAuMjgtMC4yOCAwLjc2LTAuMjggMS4wNjAgMGw0LjQ2IDQuNDggNC40OC00LjQ4YzAuMjgtMC4yOCAwLjc2LTAuMjggMS4wNjAgMHMwLjI4IDAuNzggMCAxLjA2MGwtNSA1Yy0wLjMgMC4zLTAuNzggMC4zLTEuMDYwIDBsLTUtNWMtMC4zLTAuMjgtMC4zLTAuNzYgMC0xLjA2MHoiLz48L3N2Zz4=" alt="" class="arrow-down">
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                
+
+
+
+
+            </div>
+            <div class="lang">
+
+                <div class="country-container">
+ 
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgaXdIYlZRIj48dGl0bGU+bGFuZ3VhZ2UtZ2xvYmU8L3RpdGxlPjxwYXRoIGQ9Ik0xMCAwYy01LjUyMyAwLTEwIDQuNDc3LTEwIDEwczQuNDc3IDEwIDEwIDEwYzUuNTIzIDAgMTAtNC40NzcgMTAtMTB2MGMtMC4wMTEtNS41MTgtNC40ODItOS45ODktOS45OTktMTBoLTAuMDAxek0xNy4xNCA2LjE4aC0zYy0wLjI2NC0xLjM5My0wLjYzLTIuNjItMS4xMDctMy43OTFsMC4wNDcgMC4xMzFjMS43NTUgMC43MzMgMy4xNjEgMi4wMTAgNC4wMzkgMy42MThsMC4wMjEgMC4wNDJ6TTE4LjEgMTBjLTAuMDAyIDAuNjc2LTAuMDkwIDEuMzMtMC4yNTIgMS45NTRsMC4wMTItMC4wNTRoLTMuNDRjMC4wNTktMC41NyAwLjA5Mi0xLjIzMSAwLjA5Mi0xLjlzLTAuMDM0LTEuMzMtMC4wOTktMS45ODJsMC4wMDcgMC4wODJoMy40NGMwLjE1IDAuNTcgMC4yMzggMS4yMjQgMC4yNCAxLjg5OXYwLjAwMXpNMS45IDEwYzAuMDAyLTAuNjc2IDAuMDkwLTEuMzMgMC4yNTItMS45NTRsLTAuMDEyIDAuMDU0aDMuNDZjLTAuMDU5IDAuNTctMC4wOTIgMS4yMzEtMC4wOTIgMS45czAuMDM0IDEuMzMgMC4wOTkgMS45ODJsLTAuMDA3LTAuMDgyaC0zLjQ2Yy0wLjE1LTAuNTctMC4yMzgtMS4yMjQtMC4yNC0xLjg5OXYtMC4wMDF6TTcuNDggOC4xaDUuMDQwYzAuMDYzIDAuNTcgMC4wOTkgMS4yMzEgMC4wOTkgMS45cy0wLjAzNiAxLjMzLTAuMTA3IDEuOTgxbDAuMDA3LTAuMDgxaC01LjA0MGMtMC4wNjMtMC41Ny0wLjA5OS0xLjIzMS0wLjA5OS0xLjlzMC4wMzYtMS4zMyAwLjEwNy0xLjk4MWwtMC4wMDcgMC4wODF6TTEwLjc2IDEuOWMwLjYwMyAxLjIyOCAxLjEwNiAyLjY1NyAxLjQzNiA0LjE1MmwwLjAyNCAwLjEyOGgtNC40NGMwLjM1NC0xLjYyMyAwLjg1Ny0zLjA1MiAxLjUxLTQuMzk1bC0wLjA1MCAwLjExNWMwLjI0IDAgMC41IDAgMC43NiAwczAuNDggMCAwLjc2IDB6TTYuOTYgMi40OGMtMC40NDUgMS4wNTEtMC44MjUgMi4yOTEtMS4wNzkgMy41NzZsLTAuMDIxIDAuMTI0aC0zYzAuODk5LTEuNjUgMi4zMDUtMi45MjcgNC4wMDctMy42NGwwLjA1My0wLjAyMHpNMi44NiAxMy44aDNjMC4yNjIgMS40IDAuNjI5IDIuNjM0IDEuMTA3IDMuODExbC0wLjA0Ny0wLjEzMWMtMS43NTctMC43MzgtMy4xNjUtMi4wMjItNC4wMzktMy42MzdsLTAuMDIxLTAuMDQzek05LjI0IDE4LjFjLTAuNjA1LTEuMjM0LTEuMTA4LTIuNjctMS40MzctNC4xNzJsLTAuMDIzLTAuMTI4aDQuNDRjLTAuMzUyIDEuNjMtMC44NTUgMy4wNjYtMS41MSA0LjQxNWwwLjA1MC0wLjExNWMtMC4yNCAwLTAuNSAwLTAuNzYgMHMtMC40OCAwLTAuNzYgMHpNMTMuMDQwIDE3LjUyYzAuNDMxLTEuMDQ2IDAuNzk4LTIuMjggMS4wNDEtMy41NThsMC4wMTktMC4xMjJoMy4wNDBjLTAuOTAyIDEuNjQyLTIuMzA4IDIuOTEyLTQuMDA2IDMuNjJsLTAuMDU0IDAuMDIweiIvPjwvc3ZnPg==" alt="" id="flag-india">
+
+                    <div class="country-text" >
+                        English
+                    </div>
+
+                    <div class="arrow-down" >
+
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAga01OclBrIj48dGl0bGU+Y2hldnJvbi1kb3duPC90aXRsZT48cGF0aCBkPSJNNC40OCA3LjM4YzAuMjgtMC4yOCAwLjc2LTAuMjggMS4wNjAgMGw0LjQ2IDQuNDggNC40OC00LjQ4YzAuMjgtMC4yOCAwLjc2LTAuMjggMS4wNjAgMHMwLjI4IDAuNzggMCAxLjA2MGwtNSA1Yy0wLjMgMC4zLTAuNzggMC4zLTEuMDYwIDBsLTUtNWMtMC4zLTAuMjgtMC4zLTAuNzYgMC0xLjA2MHoiLz48L3N2Zz4=" alt="">
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                
+
+
+
+
+
+            </div>
+
+            
+        </div>
+
+
+        </div>
+
+        <div class="main-footer">
+
+            <div class="sub-footer">
+
+
+           
+
+            <p>ABOUT ZOMATTO</p>
+
+            <ul>
+                <li>Who We Are</li>
+                <li>Blog</li>
+                <li>Work With Us</li>
+                <li>Investor Relations</li>
+                <li>Report Fraud</li>
+                <li>Contact Us</li>
+            </ul>
+
+
+        </div>
+
+
+        <div class="sub-footer">
+
+
+           
+
+            <p>ZOMAVERSE</p>
+
+            <ul>
+                <li>Zomato</li>
+                <li>Blinkit</li>
+                <li>Feeding india</li>
+                <li>Hyperpure</li>
+                <li>Zomaland</li>
+                <li></li>
+                <li></li>
+            </ul>
+
+
+        </div>
+
+        <div class="sub-footer">
+
+            <div id="sub-footer1">
+
+                <div class="for-restaurants">
+
+                    <p>FOR RESTAURANTS</p>
+                    <ul>
+
+
+                        <li> Partner With Us</li>
+                        <li>App for you</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+
+                <div class="for-restaurants-2">
+
+
+
+                    <p>FOR ENTERPRISES</p>
+                    <ul>
+
+
+                        <li> Zomato for work</li>
+                        <li></li>
+                    </ul>
+
+                </div>
+
+                
+
+
+
+
+
+            </div>
+
+
+
+            
+
+            
+
+            
+
+            
+        </div>
+
+        <div class="sub-footer">
+
+
+           
+
+            <p>LEARN MORE</p>
+
+            <ul>
+                <li>Privacy</li>
+                <li>Security</li>
+                <li>Terms</li>
+                <li>Sitemap</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+
+        </div>
+
+        <div class="social-media">
+
+            <h6>SOCAIAL LINKS</h6>
+
+            <div class="insta">
+
+                <div class="in-box">
+
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgY3Z1ektBIj48cGF0aCBkPSJNMCAxMEMwIDQuNSA0LjUgMCAxMCAwQzE1LjUgMCAyMCA0LjUgMjAgMTBDMjAgMTUuNSAxNS41IDIwIDEwIDIwQzQuNSAyMCAwIDE1LjUgMCAxMFpNNy4wNjI1IDguMzc1SDQuNzVWMTUuNDM3NUg3LjA2MjVWOC4zNzVaTTcuMjUgNi4xODc1QzcuMjUgNS41IDYuNzUgNSA1LjkzNzUgNUM1LjEyNSA1IDQuNTYyNSA1LjUgNC41NjI1IDYuMTg3NUM0LjU2MjUgNi44NzUgNS4wNjI1IDcuNDM3NSA1Ljg3NSA3LjQzNzVDNi42ODc1IDcuNDM3NSA3LjI1IDYuODc1IDcuMjUgNi4xODc1Wk0xNS41IDExLjM3NUMxNS41IDkuMTg3NSAxNC4zMTI1IDguMTg3NSAxMi44MTI1IDguMTg3NUMxMS41NjI1IDguMTg3NSAxMSA4Ljg3NSAxMC42ODc1IDkuMzc1VjguMzc1SDguMzc1QzguMzc1IDkuMDYyNSA4LjM3NSAxNS40Mzc1IDguMzc1IDE1LjQzNzVIMTAuNjg3NVYxMS41QzEwLjY4NzUgMTEuMzEyNSAxMC42ODc1IDExLjA2MjUgMTAuNzUgMTAuOTM3NUMxMC45Mzc1IDEwLjUgMTEuMzEyNSAxMC4wNjI1IDExLjkzNzUgMTAuMDYyNUMxMi43NSAxMC4wNjI1IDEzLjEyNSAxMC42ODc1IDEzLjEyNSAxMS42ODc1VjE1LjQzNzVIMTUuNDM3NUMxNS41IDE1LjQzNzUgMTUuNSAxMS4zNzUgMTUuNSAxMS4zNzVaIi8+PC9zdmc+" alt="" id="logo-color">
+
+
+
+                </div>
+                <div class="in-box">
+
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgY3Z1ektBIj48cGF0aCBkPSJNMCAxMEMwIDQuNSA0LjUgMCAxMCAwQzE1LjUgMCAyMCA0LjUgMjAgMTBDMjAgMTUuNSAxNS41IDIwIDEwIDIwQzQuNSAyMCAwIDE1LjUgMCAxMFpNMTAuMTg3NSA1QzguODEyNSA1IDguNjI1IDUgOC4wNjI1IDVDNy41IDUuMDYyNSA3LjEyNSA1LjEyNSA2LjgxMjUgNS4yNUM2LjUgNS4zNzUgNi4xODc1IDUuNTYyNSA1Ljg3NSA1Ljg3NUM1LjU2MjUgNi4xODc1IDUuMzc1IDYuNDM3NSA1LjI1IDYuODEyNUM1LjEyNSA3LjEyNSA1IDcuNSA1IDguMDYyNUM1IDguNjI1IDUgOC43NSA1IDEwLjE4NzVDNSAxMS42MjUgNSAxMS44MTI1IDUuMDYyNSAxMi4zNzVDNS4wNjI1IDEyLjkzNzUgNS4xODc1IDEzLjMxMjUgNS4zMTI1IDEzLjYyNUM1LjQzNzUgMTMuOTM3NSA1LjYyNSAxNC4yNSA1LjkzNzUgMTQuNTYyNUM2LjE4NzUgMTQuODEyNSA2LjUgMTUgNi44NzUgMTUuMTg3NUM3LjE4NzUgMTUuMzEyNSA3LjU2MjUgMTUuNDM3NSA4LjEyNSAxNS40Mzc1QzguNjg3NSAxNS40Mzc1IDguODc1IDE1LjUgMTAuMjUgMTUuNUMxMS42ODc1IDE1LjUgMTEuODc1IDE1LjUgMTIuNDM3NSAxNS40Mzc1QzEzIDE1LjM3NSAxMy4zNzUgMTUuMzEyNSAxMy42ODc1IDE1LjE4NzVDMTQgMTUuMDYyNSAxNC4zMTI1IDE0Ljg3NSAxNC42MjUgMTQuNTYyNUMxNC45Mzc1IDE0LjI1IDE1LjEyNSAxNCAxNS4yNSAxMy42MjVDMTUuMzc1IDEzLjMxMjUgMTUuNSAxMi44NzUgMTUuNSAxMi4zNzVDMTUuNTYyNSAxMS44MTI1IDE1LjU2MjUgMTEuNjI1IDE1LjU2MjUgMTAuMTg3NUMxNS41NjI1IDguNzUgMTUuNTYyNSA4LjYyNSAxNS41IDguMDYyNUMxNS41IDcuNSAxNS4zNzUgNy4xMjUgMTUuMjUgNi44MTI1QzE1LjEyNSA2LjQzNzUgMTQuOTM3NSA2LjE4NzUgMTQuNjI1IDUuODc1QzE0LjM3NSA1LjYyNSAxNC4wNjI1IDUuNDM3NSAxMy42ODc1IDUuMjVDMTMuMzc1IDUuMTI1IDEyLjkzNzUgNS4wNjI1IDEyLjQzNzUgNUMxMS44MTI1IDUgMTEuNjI1IDUgMTAuMTg3NSA1Wk05Ljc1IDUuOTM3NUM5Ljg3NSA1LjkzNzUgMTAuMDYyNSA1LjkzNzUgMTAuMTg3NSA1LjkzNzVDMTEuNTYyNSA1LjkzNzUgMTEuNzUgNS45Mzc1IDEyLjMxMjUgNS45Mzc1QzEyLjgxMjUgNS45Mzc1IDEzLjA2MjUgNi4wNjI1IDEzLjI1IDYuMTI1QzEzLjUgNi4yNSAxMy42ODc1IDYuMzc1IDEzLjg3NSA2LjVDMTQuMDYyNSA2LjYyNSAxNC4xODc1IDYuODEyNSAxNC4yNSA3LjEyNUMxNC4zMTI1IDcuMzEyNSAxNC40Mzc1IDcuNTYyNSAxNC40Mzc1IDguMDYyNUMxNC41IDguNjI1IDE0LjUgOC44MTI1IDE0LjUgMTAuMTg3NUMxNC41IDExLjU2MjUgMTQuNSAxMS43NSAxNC40Mzc1IDEyLjMxMjVDMTQuNDM3NSAxMi44MTI1IDE0LjMxMjUgMTMuMTI1IDE0LjI1IDEzLjMxMjVDMTQuMTg3NSAxMy41NjI1IDE0LjA2MjUgMTMuNjg3NSAxMy44NzUgMTMuOTM3NUMxMy42ODc1IDE0LjEyNSAxMy41IDE0LjE4NzUgMTMuMjUgMTQuMzEyNUMxMy4wNjI1IDE0LjM3NSAxMi44MTI1IDE0LjUgMTIuMzEyNSAxNC41QzExLjc1IDE0LjUgMTEuNTYyNSAxNC41NjI1IDEwLjE4NzUgMTQuNTYyNUM4LjgxMjUgMTQuNTYyNSA4LjYyNSAxNC41NjI1IDguMDYyNSAxNC41QzcuNTYyNSAxNC41IDcuMzEyNSAxNC4zNzUgNy4xMjUgMTQuMzEyNUM2Ljg3NSAxNC4xODc1IDYuNjg3NSAxNC4xMjUgNi41IDEzLjkzNzVDNi4zMTI1IDEzLjc1IDYuMTg3NSAxMy41NjI1IDYuMTI1IDEzLjMxMjVDNi4wNjI1IDEzLjEyNSA2IDEyLjg3NSA1LjkzNzUgMTIuMzEyNUM1LjkzNzUgMTEuNzUgNS45Mzc1IDExLjYyNSA1LjkzNzUgMTAuMTg3NUM1LjkzNzUgOC44MTI1IDUuOTM3NSA4LjYyNSA1LjkzNzUgOC4wNjI1QzYgNy41NjI1IDYuMDYyNSA3LjMxMjUgNi4xMjUgNy4xMjVDNi4yNSA2Ljg3NSA2LjM3NSA2LjY4NzUgNi41IDYuNUM2LjYyNSA2LjMxMjUgNi44NzUgNi4xODc1IDcuMTI1IDYuMTI1QzcuMzEyNSA2LjA2MjUgNy41NjI1IDUuOTM3NSA4LjA2MjUgNS45Mzc1QzguNTYyNSA1LjkzNzUgOC43NSA1LjkzNzUgOS43NSA1LjkzNzVaTTEzIDYuODEyNUMxMi42ODc1IDYuODEyNSAxMi4zNzUgNy4wNjI1IDEyLjM3NSA3LjQzNzVDMTIuMzc1IDcuODEyNSAxMi42MjUgOC4wNjI1IDEzIDguMDYyNUMxMy4zNzUgOC4wNjI1IDEzLjYyNSA3LjgxMjUgMTMuNjI1IDcuNDM3NUMxMy42MjUgNy4wNjI1IDEzLjMxMjUgNi44MTI1IDEzIDYuODEyNVpNMTAuMTg3NSA3LjVDOC43NSA3LjUgNy41IDguNjg3NSA3LjUgMTAuMTg3NUM3LjUgMTEuNjg3NSA4LjY4NzUgMTIuODc1IDEwLjE4NzUgMTIuODc1QzExLjY4NzUgMTIuODc1IDEyLjg3NSAxMS42ODc1IDEyLjg3NSAxMC4xODc1QzEyLjg3NSA4LjY4NzUgMTEuNjg3NSA3LjUgMTAuMTg3NSA3LjVaTTEwLjE4NzUgOC40Mzc1QzExLjEyNSA4LjQzNzUgMTEuOTM3NSA5LjE4NzUgMTEuOTM3NSAxMC4xODc1QzExLjkzNzUgMTEuMTg3NSAxMS4xODc1IDExLjkzNzUgMTAuMTg3NSAxMS45Mzc1QzkuMjUgMTEuOTM3NSA4LjQzNzUgMTEuMTg3NSA4LjQzNzUgMTAuMTg3NUM4LjQzNzUgOS4xODc1IDkuMjUgOC40Mzc1IDEwLjE4NzUgOC40Mzc1WiIvPjwvc3ZnPg==" alt="" id="logo-color">
+
+
+
+                </div>
+                <div class="in-box">
+
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgY3Z1ektBIj48cGF0aCBkPSJNMCAxMEMwIDQuNSA0LjUgMCAxMCAwQzE1LjUgMCAyMCA0LjUgMjAgMTBDMjAgMTUuNSAxNS41IDIwIDEwIDIwQzQuNSAyMCAwIDE1LjUgMCAxMFpNMTAuMDYyNSA4LjEyNVY4LjVMOS42ODc1IDguNDM3NUM4LjMxMjUgOC4yNSA3LjEyNSA3LjY4NzUgNi4xMjUgNi42ODc1TDUuNjI1IDYuMTg3NUw1LjUgNi41NjI1QzUuMjUgNy4zNzUgNS4zNzUgOC4yNSA1LjkzNzUgOC44MTI1QzYuMjUgOS4xMjUgNi4xODc1IDkuMTg3NSA1LjY4NzUgOUM1LjUgOC45Mzc1IDUuMzc1IDguODc1IDUuMzEyNSA4LjkzNzVDNS4yNSA5IDUuNDM3NSA5LjY4NzUgNS41NjI1IDkuOTM3NUM1Ljc1IDEwLjMxMjUgNi4xODc1IDEwLjY4NzUgNi41NjI1IDEwLjg3NUw2LjkzNzUgMTEuMDYyNUg2LjVDNi4wNjI1IDExLjA2MjUgNi4wNjI1IDExLjA2MjUgNi4xMjUgMTEuMjVDNi4zMTI1IDExLjc1IDYuODc1IDEyLjI1IDcuNTYyNSAxMi41TDggMTIuNjg3NUw3LjYyNSAxMi45Mzc1QzcgMTMuMzEyNSA2LjMxMjUgMTMuNSA1LjYyNSAxMy41QzUuMzEyNSAxMy41IDUgMTMuNTYyNSA1IDEzLjU2MjVDNSAxMy42MjUgNS45Mzc1IDE0LjA2MjUgNi40Mzc1IDE0LjI1QzguMDYyNSAxNC43NSA5LjkzNzUgMTQuNSAxMS4zNzUgMTMuNjg3NUMxMi4zNzUgMTMuMDYyNSAxMy4zNzUgMTEuODc1IDEzLjg3NSAxMC43NUMxNC4xMjUgMTAuMTI1IDE0LjM3NSA5IDE0LjM3NSA4LjVDMTQuMzc1IDguMTg3NSAxNC40Mzc1IDguMTI1IDE0LjgxMjUgNy42ODc1QzE1LjA2MjUgNy40Mzc1IDE1LjMxMjUgNy4xODc1IDE1LjMxMjUgNy4wNjI1QzE1LjM3NSA2LjkzNzUgMTUuMzc1IDYuOTM3NSAxNSA3LjA2MjVDMTQuMzc1IDcuMzEyNSAxNC4yNSA3LjI1IDE0LjYyNSA2Ljg3NUMxNC44NzUgNi42MjUgMTUuMTI1IDYuMTg3NSAxNS4xMjUgNi4wNjI1QzE1LjEyNSA2LjA2MjUgMTUgNi4wNjI1IDE0Ljg3NSA2LjEyNUMxNC43NSA2LjE4NzUgMTQuNDM3NSA2LjMxMjUgMTQuMTg3NSA2LjM3NUwxMy44MTI1IDYuNUwxMy41IDYuMjVDMTMuMzEyNSA2LjEyNSAxMyA1LjkzNzUgMTIuODc1IDUuOTM3NUMxMi41IDUuODEyNSAxMS45Mzc1IDUuODEyNSAxMS41NjI1IDZDMTAuNTYyNSA2LjI1IDEwIDcuMTg3NSAxMC4wNjI1IDguMTI1WiIvPjwvc3ZnPg==" alt="" id="logo-color">
+
+
+
+                </div>
+                <div class="in-box">
+
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgY3Z1ektBIj48cGF0aCBkPSJNMCAxMEMwIDQuNSA0LjUgMCAxMCAwQzE1LjUgMCAyMCA0LjUgMjAgMTBDMjAgMTUuNSAxNS41IDIwIDEwIDIwQzQuNSAyMCAwIDE1LjUgMCAxMFpNMTUuMTg3NSA3LjQzNzVDMTUuMDYyNSA3IDE0LjY4NzUgNi42MjUgMTQuMjUgNi41QzEzLjQzNzUgNi4yNSAxMC4xODc1IDYuMjUgMTAuMTg3NSA2LjI1QzEwLjE4NzUgNi4yNSA2LjkzNzUgNi4yNSA2LjEyNSA2LjVDNS42ODc1IDYuNjI1IDUuMzEyNSA3IDUuMTg3NSA3LjQzNzVDNSA4LjI1IDUgMTAgNSAxMEM1IDEwIDUgMTEuNzUgNS4yNSAxMi41NjI1QzUuMzc1IDEzIDUuNzUgMTMuMzc1IDYuMTg3NSAxMy41QzcgMTMuNzUgMTAuMjUgMTMuNzUgMTAuMjUgMTMuNzVDMTAuMjUgMTMuNzUgMTMuNSAxMy43NSAxNC4zMTI1IDEzLjVDMTQuNzUgMTMuMzc1IDE1LjEyNSAxMyAxNS4yNSAxMi41NjI1QzE1LjUgMTEuNzUgMTUuNSAxMCAxNS41IDEwQzE1LjUgMTAgMTUuNDM3NSA4LjI1IDE1LjE4NzUgNy40Mzc1Wk05LjI1IDExLjc1VjguNUwxMS44NzUgMTAuMTI1TDkuMjUgMTEuNzVaIi8+PC9zdmc+" alt="" id="logo-color">
+
+
+
+                </div>
+
+                <div class="in-box">
+
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMxQzFDMUMiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIwIDIwIiBhcmlhLWxhYmVsbGVkYnk9Imljb24tc3ZnLXRpdGxlLSBpY29uLXN2Zy1kZXNjLSIgcm9sZT0iaW1nIiBjbGFzcz0ic2MtcmJiYjQwLTAgY3Z1ektBIj48cGF0aCBkPSJNMCAxMEMwIDQuNSA0LjUgMCAxMCAwQzE1LjUgMCAyMCA0LjUgMjAgMTBDMjAgMTUuNSAxNS41IDIwIDEwIDIwQzQuNSAyMCAwIDE1LjUgMCAxMFpNMTAuNzUgMTUuNDM3NVYxMC4xODc1SDEyLjE4NzVMMTIuMzc1IDguMzc1SDEwLjc1VjcuNUMxMC43NSA3LjA2MjUgMTAuODEyNSA2LjgxMjUgMTEuNSA2LjgxMjVIMTIuMzc1VjVIMTAuOTM3NUM5LjE4NzUgNSA4LjYyNSA1Ljg3NSA4LjYyNSA3LjMxMjVWOC4zNzVINy41VjEwLjE4NzVIOC41NjI1VjE1LjQzNzVDOC41NjI1IDE1LjQzNzUgMTAuNzUgMTUuNDM3NSAxMC43NSAxNS40Mzc1WiIvPjwvc3ZnPg==" alt="" id="logo-color">
+
+
+
+                </div>
+            
+
+
+
+
+            </div>
+
+            <div id="google-play">
+
+                <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="" id="google-play-logo">
+                <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" id="google-play-logo">
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+        </div>
+
+        <div id="copy-right">
+
+
+        <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+
+       
+    </div>
+
+
+
+
+</div>
+
+
+
+</footer>
+
+
+
+    
+    
+</body>
+</html>
